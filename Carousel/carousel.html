@@ -1,0 +1,110 @@
+
+
+<!--divinectorweb.com-->
+
+<meta charset="UTF-8">
+<title>Responsive Team Slider using Bootstrap &amp; Owl Carousel 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+
+<section id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+				<div class="sec-heading text-center">
+					<h6>Testimonials</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="testimonial-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="team-slider owl-carousel">
+						<div class="single-box text-center">
+							<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://storage.googleapis.com/msgsndr/4zNp2kO8IEu2cTR9Mkjc/media/6443052afb3178bf54709a76.png"></div>
+							<div class="info-area">
+								<p>I love that The Zone gives me accountability that helps me finish tasks. I'm more consistent showing up for the sprint knowing that other people will be there too. I've tried to "time-block" before, but when it's just on my own, it's way easier to blow it off or do something else and not reach my goals. I love that everyone gets to knock things off their lists, but if you need collaboration or another set of eyes on something, you have a built-in support network to help.</p>
+								<h4>Angela Russo</h4>
+								<span class="job">Ads Specialist and Tech Integrator</span>
+							</div>
+						</div>
+						<div class="single-box text-center">
+							<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://storage.googleapis.com/msgsndr/4zNp2kO8IEu2cTR9Mkjc/media/6443060524e93aac7ab2fea3.png"></div>
+							<div class="info-area">
+								<p>Being part of The Zone and working with Pam helped me move to the next stage in my business. It helped me get into the right mindset, build community, and get affirmation that I'm on the right track. Any freelancers or small business owners out there ought to check out The Zone; there isn't much out there like it!</p>
+								<h4>Erin Heath</h4>
+								<span class="job">Brand Marketing & Content Marketing Consultant</span>
+							</div>
+						</div>
+						<div class="single-box text-center">
+							<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://storage.googleapis.com/msgsndr/4zNp2kO8IEu2cTR9Mkjc/media/64430605fb3178d20e709b6f.png"></div>
+							<div class="info-area">
+								<p>Pam is an experienced coach bursting with ideas. Her coworking community, The Zone, has personally helped me with time management, accountability, goal setting, and plain old getting things done. She's a pleasure to work with!</p>
+								<h4>Adina Edelman</h4>
+								<span class="job">Book Editor</span>
+							</div>
+						</div>
+						<div class="single-box text-center">
+							<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/593GTHB7/4.png"></div>
+							<div class="info-area">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+								<h4>Person's Name</h4>
+								<span class="job">Ads Specialist and Tech Integrator</span>
+							</div>
+						</div>
+						<div class="single-box text-center">
+							<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/tJCrp53r/5.png"></div>
+							<div class="info-area">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+								<h4>Person's Name</h4>
+								<span class="job">Ads Specialist and Tech Integrator</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+ 
+ 
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+</script><script>
+	   $('.team-slider').owlCarousel({
+		   loop: true,            
+		   nav: false,
+		   autoplay: true,
+		   autoplayTimeout: 3000,
+		   smartSpeed: 450,
+		   margin: 20,
+		   responsive: {
+			   0: {
+				   items: 1
+			   },
+			   768: {
+				   items: 2
+			   },
+			   991: {
+				   items: 3
+			   },
+			   1200: {
+				   items: 3
+			   },
+			   1920: {
+				   items: 3
+			   }
+		   }
+	   });
+</script>
